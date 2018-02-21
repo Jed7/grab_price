@@ -2,6 +2,7 @@ from django.shortcuts import render
 import requests
 
 # Create your views here.
+# Comment
 def index(request):
     return render(request,'app_grab/index.html')
 
